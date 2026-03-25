@@ -1,0 +1,92 @@
+<section id="publications" class="publications-section">
+    <div class="container">
+        <h2 class="section-title">Research Publications</h2>
+        
+        <div class="filter-container">
+            <span class="filter-label">Jump to Year:</span>
+            <select onchange="location.hash=this.value;" class="year-select">
+                <option value="#y2025">2025</option>
+                <option value="#y2024">2024</option>
+                <option value="#y2023">2023</option>
+                <option value="#y2022">2022</option>
+                </select>
+        </div>
+
+        <div class="publication-list">
+            
+            <div id="y2025" class="year-group">
+                <h3 class="year-header">2025</h3>
+                
+                <div class="pub-card">
+                    <div class="pub-info">
+                        <p class="authors">Wakeel, A., Qadeer, A., Bano, Z., Shahid, M.R., Rizwan, M., Kiran, A., Sanaullah, M., <strong>Aziz, T.</strong>, Rees, R.M., Bhatia, A. and Drewer, J.</p>
+                        <p class="title">Managing Fertilizer Rates and Tillage Depth to Improve Nitrogen Use Efficiency and Soil Health.</p>
+                        <p class="journal"><em>Journal of Soil Science and Plant Nutrition</em>, 25, 2937–2947.</p>
+                        <div class="pub-meta">
+                            <span class="impact-factor">Impact Factor: 3.1</span>
+                            <a href="https://doi.org/10.1007/s42729-025-02310-5" target="_blank" class="doi-link">DOI: 10.1007/s42729-025-02310-5</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pub-card">
+                    <div class="pub-info">
+                        <p class="authors">Zuhra, N., Maqsood, M.A., <strong>Aziz, T.</strong> and Awan, M.I.</p>
+                        <p class="title">Effect of feed and manure management on nitrogen footprints of commercial dairy farms: A survey study of Central Punjab.</p>
+                        <p class="journal"><em>Soil & Environment</em>, 44(1): 104-113.</p>
+                        <div class="pub-meta">
+                            <a href="https://doi.org/10.25252/SE/2025/253789" target="_blank" class="doi-link">DOI: 10.25252/SE/2025/253789</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="y2024" class="year-group">
+                <h3 class="year-header">2024</h3>
+                <div class="pub-card">
+                    <div class="pub-info">
+                        <p class="authors">Rasheed, N., Maqsood, M.A., <strong>Aziz, T.</strong>, Ashraf, M.I., Saleem, I., Ehsan, S., Nawaz, A., Bilal, H.M. and Xu, M.</p>
+                        <p class="title">Zinc portioning and allocation patterns among various tissues confers variations in Zn use efficiency and bioavailability in lentil genotypes.</p>
+                        <p class="journal"><em>Frontiers in Plant Science</em>, 14; 1325370.</p>
+                        <div class="pub-meta">
+                            <span class="impact-factor">Impact Factor: 4.8</span>
+                            <a href="https://doi.org/10.3389/fpls.2023.1325370" target="_blank" class="doi-link">DOI: 10.3389/fpls.2023.1325370</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="y-archive" class="year-group">
+                <h3 class="year-header">Previous Publications</h3>
+                <div class="scrollable-pub-list">
+                    <div class="pub-item">
+                        <span class="pub-year">2023</span>
+                        <p>Farooq, A., et al. Solublization and uptake of phosphorus (P) by wheat and maize crops from indigenous rock phosphate... <em>Water, Air, Soil Pollution</em> 234:709.</p>
+                    </div>
+                    <div class="pub-item">
+                        <span class="pub-year">2023</span>
+                        <p>Möhring, N., Kanter, D., <strong>Aziz, T.</strong> et al. Successful implementation of global targets to reduce nutrient and pesticide pollution requires suitable indicators. <em>Nature Ecology & Evolution</em> 7, 1556–1559.</p>
+                    </div>
+                    </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<style>
+/* Professional Styling for Publications */
+.publications-section { padding: 60px 0; background: #f9f9f9; }
+.year-header { color: #2e7d32; border-bottom: 2px solid #2e7d32; margin: 30px 0 15px; padding-bottom: 5px; }
+.pub-card { background: white; padding: 20px; margin-bottom: 15px; border-left: 5px solid #2e7d32; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+.authors { font-size: 0.95em; color: #555; margin-bottom: 5px; }
+.title { font-weight: bold; font-size: 1.1em; color: #333; margin-bottom: 5px; }
+.journal { color: #2e7d32; font-style: italic; }
+.pub-meta { margin-top: 10px; font-size: 0.85em; display: flex; gap: 20px; }
+.doi-link { color: #0066cc; text-decoration: none; }
+.doi-link:hover { text-decoration: underline; }
+.impact-factor { background: #e8f5e9; padding: 2px 8px; border-radius: 4px; color: #2e7d32; font-weight: bold; }
+.scrollable-pub-list { max-height: 600px; overflow-y: auto; background: white; padding: 15px; border: 1px solid #ddd; }
+.pub-item { padding: 10px 0; border-bottom: 1px solid #eee; font-size: 0.9em; }
+.pub-year { font-weight: bold; color: #2e7d32; margin-right: 10px; }
+</style>
